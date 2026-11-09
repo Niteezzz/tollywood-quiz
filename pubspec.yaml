@@ -1,0 +1,30 @@
+name: tollywood_quiz
+description: Tollywood Trivia - Telugu Film Industry Quiz App
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.1
+  shared_preferences: ^2.5.6
+  google_fonts: ^6.1.0
+  go_router: ^13.0.0
+  confetti: ^0.7.0
+  audioplayers: ^5.2.1
+  lottie: ^3.0.0
+  cupertino_icons: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/audio/
